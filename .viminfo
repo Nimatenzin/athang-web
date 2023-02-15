@@ -34,14 +34,16 @@ $permissive
 	#/dev/mapper/centos-swap swap                    swap    defaults        0 0
 
 # File marks:
-'0  1  41  ~/index.html
-'1  5  8  /etc/yum.repos.d/jenkins.repo
-'2  7  0  /etc/sysconfig/selinux
-'3  11  0  /etc/fstab
-'4  5  31  ~/master.sh
-'5  12  0  /etc/fstab
+'0  1  22  ~/myweb/index.html
+'1  1  41  ~/index.html
+'2  5  8  /etc/yum.repos.d/jenkins.repo
+'3  7  0  /etc/sysconfig/selinux
+'4  11  0  /etc/fstab
+'5  5  31  ~/master.sh
+'6  12  0  /etc/fstab
 
 # Jumplist (newest first):
+-'  1  22  ~/myweb/index.html
 -'  1  41  ~/index.html
 -'  5  8  /etc/yum.repos.d/jenkins.repo
 -'  1  0  /etc/yum.repos.d/jenkins.repo
@@ -111,8 +113,42 @@ $permissive
 -'  1  0  /etc/fstab
 -'  5  31  ~/master.sh
 -'  1  0  ~/master.sh
+-'  1  41  ~/index.html
+-'  5  8  /etc/yum.repos.d/jenkins.repo
+-'  1  0  /etc/yum.repos.d/jenkins.repo
+-'  7  0  /etc/sysconfig/selinux
+-'  11  0  /etc/fstab
+-'  12  0  /etc/fstab
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
+-'  1  0  /etc/fstab
+-'  1  0  /etc/sysconfig/selinux
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
+-'  11  0  /etc/fstab
+-'  12  0  /etc/fstab
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
+-'  1  0  /etc/fstab
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
+-'  7  0  /etc/sysconfig/selinux
+-'  11  0  /etc/fstab
+-'  12  0  /etc/fstab
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
+-'  1  0  /etc/fstab
+-'  1  0  /etc/sysconfig/selinux
+-'  5  31  ~/master.sh
+-'  1  0  ~/master.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/myweb/index.html
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
 
 > ~/index.html
 	"	1	41
